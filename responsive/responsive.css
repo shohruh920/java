@@ -1,0 +1,176 @@
+@media only screen and (max-width: 768px){
+    header{
+        width: 100%;
+        height: 150vh;
+        background-image: url(/images/hero-bg.png);
+        background-size: cover;
+    }
+    .navigation__item a{
+        display: none;
+    }
+    .header__title{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        padding-top: 6rem;
+    }
+    .header__item{
+        width: 100%;
+    }
+    .header__item h2{
+        width: 50%;
+        font-size: 2rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .header__item p{
+        width: 75%;
+        color: white;
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .header__item button{
+        padding-left: 2.8rem;
+        padding-right: 2.8rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 10px;
+        border: none;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 40%;
+    }
+    .header__img{
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+    }
+    .about__contact{
+        padding-top: 1rem;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .about img{
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .about__title{
+        width: 100%;
+        height: 100%;
+        padding-top: 0%;
+    }
+    .about__title2{
+        width: 100%;
+        height: 100%;
+        padding-top: 10%;
+    }
+    .contact__title{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .contact__img{
+        padding-top: 4rem;
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+    }
+    .contact__iteam{
+        margin-top: 0rem;
+    }
+    .contact__iteam h3{
+        font-size: 3rem;
+    }
+    .contact__iteam p{
+        font-size: 1rem;
+        font-family: Ubuntu;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    .contact__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 0rem;
+    }
+    .contact__item{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .contact__item h2{
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+        margin-left: -330px;
+    }
+    .fanadesh{
+        width: 100%;
+        height: 130vh;
+        padding: 4.8rem;
+        background-color: #363636;
+    }
+    .fanadesh .title h2{
+        margin-bottom: 2rem;
+    }
+    .fanadesh__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .fanadesh__item h2{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .fanadesh__item p{
+        color: #fff;
+        font-family: var(--sanspro);
+        font-size: 0.9rem;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .fanadesh__item input[type="text"]{
+        width: 65%;
+        height: 25%;
+        border: 0;
+        outline: none;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        border-radius: 6px;
+        margin-left: 18%;
+    }
+    .fanadesh__item input[type="submit"]{
+        width: 30%;
+        height: 25%;
+        border: 0;
+        outline: none;
+        font-size: 1.2rem;
+        background-color: #FDD31D;
+        color: #fff;
+        border-radius: 6px;
+        margin-left: 35%;
+        margin-top: 0.7rem;
+    }
+    .social__png{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        margin: 0 auto;
+        width: 20%;
+        height: 50px;
+        margin-left: 28%;
+    }
+}
